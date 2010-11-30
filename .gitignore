@@ -1,0 +1,11 @@
+bin/
+obj/
+Nunit Tools/
+Tools/
+*.suo
+*.user
+_ReSharper.MVCTestsEx/
+
+*.exe
+*.nupkg
+
