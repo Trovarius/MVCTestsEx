@@ -1,11 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using NUnit.Framework;
 
-namespace MVCTestsEx
+namespace MVCTestsExTests
 {
     [TestFixture]
     public class ViewResultExtesionsTests
@@ -65,14 +61,6 @@ namespace MVCTestsEx
                 Assert.That(Is.StringContaining("Expected: \"SomeName\"").Matches(ex.Message));
                 Assert.That(Is.StringContaining("But was:  <string.Empty>").Matches(ex.Message));
             }
-        }
-    }
-
-    public static class MVCTestsExtensions
-    {
-        public static void AssertViewName(this ViewResult viewResult, string expectedViewName)
-        {
-            Assert.AreEqual(expectedViewName, viewResult.ViewName);
         }
     }
 }

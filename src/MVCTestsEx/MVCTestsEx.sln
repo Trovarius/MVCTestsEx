@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTestsEx", "MVCTestsEx\MVCTestsEx.csproj", "{A9D1D060-7AE3-444C-8FA9-5E13B37D5987}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTestsExTests", "MVCTestsEx\MVCTestsExTests.csproj", "{A9D1D060-7AE3-444C-8FA9-5E13B37D5987}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -1,7 +1,7 @@
 ﻿using System.Web.Mvc;
 using NUnit.Framework;
 
-namespace MVCTestsEx
+namespace MVCTestsExTests
 {
     public static class MVCTestsExtensions
     {
