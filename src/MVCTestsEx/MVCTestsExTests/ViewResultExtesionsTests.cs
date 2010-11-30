@@ -1,4 +1,5 @@
 ﻿using System.Web.Mvc;
+using MVCTestsEx;
 using NUnit.Framework;
 
 namespace MVCTestsExTests

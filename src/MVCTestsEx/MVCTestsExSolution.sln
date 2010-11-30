@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTestsExTests", "MVCTestsExTests\MVCTestsExTests.csproj", "{A9D1D060-7AE3-444C-8FA9-5E13B37D5987}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTestsEx", "MVCTestsEx\MVCTestsEx.csproj", "{4A71470E-9624-44DE-BFEC-D6A77136D7E0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +15,10 @@ Global
 		{A9D1D060-7AE3-444C-8FA9-5E13B37D5987}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9D1D060-7AE3-444C-8FA9-5E13B37D5987}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9D1D060-7AE3-444C-8FA9-5E13B37D5987}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A71470E-9624-44DE-BFEC-D6A77136D7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A71470E-9624-44DE-BFEC-D6A77136D7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A71470E-9624-44DE-BFEC-D6A77136D7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A71470E-9624-44DE-BFEC-D6A77136D7E0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
