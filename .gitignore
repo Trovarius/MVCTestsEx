@@ -5,6 +5,8 @@ Tools/
 *.suo
 *.user
 _ReSharper.MVCTestsEx/
+_ReSharper.MVCTestsExSolution/
+_ReSharper.MVCTestsExTests/
 
 *.exe
 *.nupkg
