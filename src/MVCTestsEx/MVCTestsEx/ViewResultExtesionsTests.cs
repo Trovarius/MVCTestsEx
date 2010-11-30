@@ -18,6 +18,22 @@ namespace MVCTestsEx
 
             viewResult.AssertViewName("SomeName");
         }
+        [Test]
+        public void testing_that_AssertViewName_passing_wrong_viewresult_viewname_should_not_pass()
+        {
+            ViewResult viewResult = new ViewResult();
+            viewResult.ViewName = "SomeName";
+
+            try
+            {
+                viewResult.AssertViewName("SomeWrongName");
+            }
+            catch (AssertionException ex)
+            {
+                Assert.That(Is.StringContaining("Expected: \"SomeWrongName\"").Matches(ex.Message));
+                Assert.That(Is.StringContaining("But was:  \"SomeName\"").Matches(ex.Message));
+            }
+        }
     }
 
     public static class MVCTestsExtensions
