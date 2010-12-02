@@ -45,9 +45,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ActionResultExtesionsTests.cs" />
-    <Compile Include="ModelAsExtensionTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewResultExtesionsTests.cs" />
+    <Compile Include="ViewResultModelAsExtensionTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
