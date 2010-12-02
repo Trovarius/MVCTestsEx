@@ -9,5 +9,13 @@ namespace MVCTestsEx
         {
             Assert.AreEqual(expectedViewName, viewResult.ViewName);
         }
+        public static void AssertViewName(this ActionResult viewResult, string expectedViewName)
+        {
+            Assert.AreEqual(expectedViewName, viewResult.TryCastAs().ViewName);
+        }
+        private static ViewResult TryCastAs(this ActionResult actionResult)
+        {
+            return actionResult as ViewResult;
+        }
     }
 }
