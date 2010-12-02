@@ -13,7 +13,7 @@ namespace MVCTestsEx
         {
             Assert.AreEqual(expectedViewName, viewResult.TryCastAsViewResult().ViewName);
         }
-        private static ViewResult TryCastAsViewResult(this ActionResult actionResult)
+        internal static ViewResult TryCastAsViewResult(this ActionResult actionResult)
         {
             return actionResult as ViewResult;
         }

@@ -8,5 +8,9 @@ namespace MVCTestsEx
         {
             return viewResult.ViewData.Model as T;
         }
+        public static T ModelAs<T>(this ActionResult viewResult) where T : class
+        {
+            return viewResult.TryCastAsViewResult().ViewData.Model as T;
+        }
     }
 }
